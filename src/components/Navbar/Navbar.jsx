@@ -1,8 +1,10 @@
 import React from 'react'
+import { GiHamburgerMenu } from "react-icons/gi";
+
 
 const Navbar = ({sidebar, setSidebar}) => {
   return (
-    <div>
+    <div className='absolute top-0 left-0 w-full text-white z-20'>
       <div className="container">
         <div className="flex justify-between items-center">
           {/* logo section */}
@@ -16,6 +18,9 @@ const Navbar = ({sidebar, setSidebar}) => {
               <li><a href='#'>Contact</a></li>
             </ul>
             {/* Hamburger menu */}
+            <div onClick={() => setSidebar(!sidebar) }>
+            <GiHamburgerMenu className='text-3xl cursor-pointer' />
+            </div>
             
         </div>
       </div>
