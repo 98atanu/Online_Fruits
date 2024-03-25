@@ -23,7 +23,7 @@ const Hero = () => {
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem
                 aliquid praesentium amet blanditiis ipsa nihil!
               </p>
-              <button className="primary-btn">Shop Now</button>
+              <button className="secondary-btn">Shop Now</button>
             </div>
             {/* image section */}
             <div>

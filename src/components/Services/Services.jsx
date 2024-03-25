@@ -1,7 +1,7 @@
 import React from "react";
-import Fruits1 from "../../assets/Fruits/fruits1.webp";
-import Fruits2 from "../../assets/Fruits/fruits2.png";
-import Fruits3 from "../../assets/Fruits/fruits3.png";
+import Fruits1 from "../../assets/fruits/fruits1.webp";
+import Fruits2 from "../../assets/fruits/fruits2.png";
+import Fruits3 from "../../assets/fruits/fruits3.png";
 
 const ServicesData = [
   {
@@ -51,8 +51,8 @@ const Services = () => {
               className="max-w-[200px] mx-auto hover:scale-110 duration-300 img-shadow2 "
             />
             <div className="space-y-2">
-              <h1>{item.title}</h1>
-              <p>{item.subtitle}</p>
+              <h1 className="text-2xl font-bold text-primary">{item.title}</h1>
+              <p className="text-dark">{item.subtitle}</p>
             </div>
           </div>
         ))}
