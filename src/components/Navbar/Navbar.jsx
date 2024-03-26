@@ -4,12 +4,12 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = ({sidebar, setSidebar}) => {
   return (
-    <div className='absolute top-0 left-0 w-full text-white z-20'>
-      <div className="container">
+    <div className='absolute top-0 left-0 w-full text-white z-20 pt-2'>
+      <div  data-aos="fade" className="container">
         <div className="flex justify-between items-center">
           {/* logo section */}
-          <h1 className='text-4xl font-bold uppercase'>
-            Orange<span className='font-normal text-2xl'>Mint</span>
+          <h1 className=' text-4xl font-bold uppercase'>
+            Orange <span className='font-normal text-2xl'>Mint</span>
             </h1>
             {/* Navlink section */}
             <ul className='lg:flex hidden space-x-4 text-xl'>
